@@ -47,5 +47,3 @@ dose <- function (mmrc, fev, smoking_status, exacerbation) {
   return(results)
 }
 
-dose(mmrc=0, fev=55, smoking_status=1, exacerbation=2)
-
