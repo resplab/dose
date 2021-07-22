@@ -3,7 +3,7 @@
 
 # dose
 
-<!-- badges: start -->
+[![R-CMD-check](https://github.com/resplab/dose/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/resplab/dose/actions/workflows/R-CMD-check.yaml)
 
 <!-- badges: end -->
 
