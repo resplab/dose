@@ -5,6 +5,7 @@
 
 [![R-CMD-check](https://github.com/resplab/dose/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/resplab/dose/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/resplab/dose/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/resplab/dose/actions/workflows/test-coverage.yaml)
+[![codecov](https://codecov.io/gh/resplab/dose/branch/master/graph/badge.svg?token=EJ3XRXK0RB)](https://codecov.io/gh/resplab/dose)
 
 The goal of dose is to calculate the DOSE index in COPD.
 
