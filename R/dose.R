@@ -1,14 +1,15 @@
-#' Title
+#' The DOSE index in COPD
 #'
-#' @param mmrc
-#' @param fev
-#' @param smoking_status
-#' @param exacerbation
+#' @param mmrc A number for the dyspnea scale of modified Medical Research Council (mMRC)
+#' @param fev A number for forced expiratory volume in one second (FEV1) expressed as percentage
+#' @param smoking_status Binary variable of patient's smoking status (yes as 1 or no as 0)
+#' @param exacerbation The number of exacerbations of COPD during the previous year
 #'
-#' @return
+#' @return The DOSE index
 #' @export
 #'
 #' @examples
+#' dose(mmrc=0, fev=55, smoking_status=1, exacerbation=2)
 dose <- function (mmrc, fev, smoking_status, exacerbation) {
   if (mmrc >= 0 & mmrc <= 1) {
     dyspnea <- 0
