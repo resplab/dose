@@ -24,7 +24,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(dose)
-## basic example code
 dose(mmrc=0, fev=55, smoking_status=1, exacerbation=2)
 ```
 
