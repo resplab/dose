@@ -44,7 +44,9 @@ dose <- function (mmrc, fev, smoking_status, exacerbation) {
   }
 
   dose_index <- dyspnea + obstruction + smoker + ex
-  results <- dose_index
+  results <- list()
+  results$dose_index <- dose_index
   return(results)
+  
 }
 
