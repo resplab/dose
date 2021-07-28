@@ -25,6 +25,7 @@ This is a basic example which calculate the DOSE index, which is a derivation an
 ``` r
 library(dose)
 dose(mmrc=0, fev=55, smoking_status=1, exacerbation=2)
-# > 2
+$dose_index
+[1] 2
 ```
 
